@@ -11574,6 +11574,13 @@ pre .code {
     }
   .header .header-content .header-mono {
     letter-spacing: 2px;
+    color: black;
+  }
+  .header .header-content .header-title {
+    color: black;
+  }
+  .header .header-content .header-subtitle {
+    color: black;
   }
 }
 
