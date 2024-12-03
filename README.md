@@ -57,17 +57,7 @@ Click "Save."
 
 Your portfolio website should be available at https://yourusername.github.io/portfolio-website/.
 
-File Structure
-portfolio-website/
-├── css/                     # CSS files
-│   └── styles.css           # Main stylesheet
-├── js/                      # JavaScript files
-│   └── script.js            # Main JavaScript file
-├── images/                  # Image files
-├── index.html               # Home page HTML file
-├── projects.html            # Projects page HTML file
-├── about.html               # About Me page HTML file
-└── contact.html             # Contact page HTML file
+
 
 
 
