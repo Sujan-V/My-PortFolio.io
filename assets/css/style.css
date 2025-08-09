@@ -11533,7 +11533,6 @@ pre .code {
   font-weight: bold;
   line-height: .7;
   margin-bottom: 25px;
-  color: inherit;
 }
 
 .header .header-content .header-mono {
@@ -11559,6 +11558,14 @@ pre .code {
 
 
 @media (max-width: 767.98px) {
+  .profile-image-container {
+    max-width: 80%; /* Reduce width */
+    margin: 0 auto; /* Center the image */
+    float: none; /* Disable floating */
+  }
+  .profile-image-container img {
+    max-width: 100%; /* Ensure it doesn't overflow */
+  }
   .header {
     height: 500px;
     min-height: 500px;
@@ -11574,7 +11581,16 @@ pre .code {
     }
   .header .header-content .header-mono {
     letter-spacing: 2px;
+    color: black;
   }
+  .header .header-content .header-title {
+    color: black;
+  }
+  .header .header-content .header-subtitle {
+    color: black;
+  }
+  
+
 }
 
 .header-title {
